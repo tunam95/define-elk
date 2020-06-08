@@ -10,7 +10,7 @@ module.exports = createIndex;
 
 async function test(){
     try {
-        const resp = await createIndex('forecast2');
+        const resp = await createIndex('dust');
         console.log(resp);
     } catch (e) {
         console.log(e);
